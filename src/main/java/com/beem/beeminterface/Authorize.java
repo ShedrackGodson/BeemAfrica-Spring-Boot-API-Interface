@@ -8,15 +8,18 @@ import org.springframework.util.MultiValueMap;
 
 import java.util.Base64;
 
+/**
+ * An authorization class
+ * It handles apiKey and secretKey on the fly.
+ * ...
+ * Define these keys into your application.properties
+ * as BEEM_API_KEY and BEEM_SECRET_KEY respectively
+ */
 @Component
 public class Authorize {
     private final Token token;
 
     public Authorize(
-            /*
-             * Define these keys into your application.properties
-             * as BEEM_API_KEY and BEEM_SECRET_KEY respectively
-             */
             @Value("${BEEM_API_KEY}") String accessKey,
             @Value("${BEEM_SECRET_KEY}") String secretKey
     ) {

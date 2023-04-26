@@ -21,6 +21,9 @@ import java.util.Map;
 
 import static com.beem.beeminterface.Authorize.getHeaders;
 
+/**
+ * A class to send an actual SMS
+ */
 public class SMS {
 
     @NonNull

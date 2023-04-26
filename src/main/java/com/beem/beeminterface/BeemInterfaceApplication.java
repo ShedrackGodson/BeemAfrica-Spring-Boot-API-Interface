@@ -34,10 +34,8 @@ public class BeemInterfaceApplication {
                 sms.setScheduleTimeStr(null);
                 Authorize.getEncodedToken();
 
-                Object response = sms.sendSms();
-                System.out.println(response);
+                sms.sendSms();
             } catch (Exception e) {
-                System.out.println(e.toString());
                 throw new IllegalArgumentException("Unexpected exception occurred.");
             }
         };

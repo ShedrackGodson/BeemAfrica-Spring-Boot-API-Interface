@@ -6,6 +6,9 @@ import lombok.NonNull;
 
 import java.util.List;
 
+/**
+ * A data object to transfer payload when sending SMS
+ */
 @Data
 @AllArgsConstructor
 public class SendSmsDto {
