@@ -1,4 +1,4 @@
-package com.beem.beeminterface;
+package io.github.shedrackgodson.beeminterface;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;

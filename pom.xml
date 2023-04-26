@@ -22,9 +22,9 @@
     </parent>
     <groupId>io.github.shedrackgodson</groupId>
     <artifactId>BeemInterface</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>BeemInterface</name>
-    <description>BeemInterface</description>
+    <description>BeemAfrica SMS API Interface</description>
     <properties>
         <java.version>17</java.version>
     </properties>

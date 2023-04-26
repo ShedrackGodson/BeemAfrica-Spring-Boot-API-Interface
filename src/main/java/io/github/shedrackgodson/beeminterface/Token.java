@@ -1,4 +1,4 @@
-package com.beem.beeminterface;
+package io.github.shedrackgodson.beeminterface;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

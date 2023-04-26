@@ -1,4 +1,4 @@
-package com.beem.beeminterface.dtos;
+package io.github.shedrackgodson.beeminterface.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

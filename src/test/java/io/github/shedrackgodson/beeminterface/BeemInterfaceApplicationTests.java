@@ -1,4 +1,4 @@
-package com.beem.beeminterface;
+package io.github.shedrackgodson.beeminterface;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.beem.beeminterface;
+package io.github.shedrackgodson.beeminterface;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.Nullable;
@@ -18,8 +18,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import static com.beem.beeminterface.Authorize.getHeaders;
 
 /**
  * A class to send an actual SMS
@@ -117,7 +115,7 @@ public class SMS {
         request.put("message", this.getMessage());
         request.put("recipients", this.getRecipients());
 
-        MultiValueMap<String, String> headers = getHeaders();
+        MultiValueMap<String, String> headers = Authorize.getHeaders();
         HttpEntity<String> entity = new HttpEntity<>(objectMapper.writeValueAsString(request), headers);
         try {
             ResponseEntity<String> responseEntity = restTemplate.exchange(
