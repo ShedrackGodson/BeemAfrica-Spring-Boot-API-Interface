@@ -22,7 +22,7 @@
     </parent>
     <groupId>io.github.shedrackgodson</groupId>
     <artifactId>BeemInterface</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>BeemInterface</name>
     <description>BeemAfrica SMS API Interface</description>
     <packaging>jar</packaging>
@@ -97,6 +97,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <classifier>exec</classifier>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
